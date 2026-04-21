@@ -1,0 +1,25 @@
+{
+  "name": "JsTasks",
+  "version": "1.0.0",
+  "description": "Algo Tasks",
+  "homepage": "https://github.com/AlfaIV/JsTasks#readme",
+  "bugs": {
+    "url": "https://github.com/AlfaIV/JsTasks/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfaIV/JsTasks.git"
+  },
+  "license": "",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/task1/task1.js",
+    "test": "jest src/leetcode/TwoSum/TwoSum.test.js",
+    "test:all": "jest"
+  },
+  "dependencies": {
+    "jest": "^30.3.0"
+  }
+}
